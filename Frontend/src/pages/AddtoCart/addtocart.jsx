@@ -259,7 +259,7 @@ const AddToCart = () => {
             };
 
             const { data, status } = await axios.delete(
-                `http://localhost:5000/api/v1/cart/${ownerid}`,
+                `http://localhost:5000/api/v1/cart/owner/${ownerid}`,
                 config
             );
 
